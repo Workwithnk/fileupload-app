@@ -1,10 +1,10 @@
 'use client';
 import React, { useState } from 'react';
 import axios from 'axios';
-import FinalScreen from './uploads/finalScreen';
-import ErrorScreen from './uploads/ErrorScreen';
-import UploadScreen from './uploads/UploadScreen';
-import TableView from './TableView';
+import FinalScreen from '@/components/uploads/FinalScreen';
+import ErrorScreen from '@/components/uploads/ErrorScreen';
+import UploadScreen from '@/components/uploads/UploadScreen';
+import TableView from '@/components/TableView';
 
 const FileUpload = () => {
   const [loading, setLoading] = useState(false);
